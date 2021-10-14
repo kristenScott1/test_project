@@ -1,0 +1,9 @@
+json = {
+  products: @products.map do |product|
+    {
+      name: product.name,
+      cost: product.cost
+      end
+    }
+  end
+}

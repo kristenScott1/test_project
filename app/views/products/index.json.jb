@@ -1,0 +1,5 @@
+json = {
+   content: format_content(@product.content),
+   name: @product.name,
+  cost: @product.cost
+}
